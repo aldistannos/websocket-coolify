@@ -1,0 +1,21 @@
+{
+  "name": "ws-chat",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "jose": "^5.2.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/ws": "^8.5.10",
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2"
+  }
+}
